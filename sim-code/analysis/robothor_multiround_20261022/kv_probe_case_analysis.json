@@ -1,0 +1,76 @@
+{
+  "case": "8-robot RoboTHOR target_review round 3 to 4",
+  "episode_id": "FloorPlan_Train1_1_GarbageCan_65",
+  "previous_step": 11,
+  "revisit_step": 53,
+  "previous_prompt_tokens": 523,
+  "revisit_prompt_tokens": 688,
+  "previous_cached_tokens": 368,
+  "revisit_cached_tokens": 0,
+  "revisit_created_cache_tokens": 688,
+  "block_size_inferred": 16,
+  "exact_matching_prefix_blocks": 32,
+  "exact_matching_prefix_tokens": 512,
+  "old_matching_blocks_stored_by_request": 9,
+  "matching_blocks_resident_at_old_free": 32,
+  "matching_blocks_resident_at_new_lookup": 0,
+  "old_request_freed": true,
+  "matching_blocks_evicted_between_requests": 32,
+  "first_matching_block_evicted": true,
+  "allocators_for_matched_evictions": {
+    "FloorPlan_Train1_1_HousePlant_42:planner_shadow:step46": 3,
+    "FloorPlan_Train1_1_GarbageCan_65:planner_shadow:step38": 10,
+    "FloorPlan_Train1_1_Bowl_106:planner_shadow:step43": 8,
+    "FloorPlan_Train1_1_HousePlant_42:planner_shadow:step47": 7,
+    "FloorPlan_Train1_1_GarbageCan_65:planner_shadow:step39": 4
+  },
+  "allocator_interval_violations": 0,
+  "eviction_examples": [
+    {
+      "block_id": 1627,
+      "allocator": "FloorPlan_Train1_1_HousePlant_42:planner_shadow:step46",
+      "since_old_free_ms": 10593.355
+    },
+    {
+      "block_id": 1626,
+      "allocator": "FloorPlan_Train1_1_HousePlant_42:planner_shadow:step46",
+      "since_old_free_ms": 10594.295
+    },
+    {
+      "block_id": 1625,
+      "allocator": "FloorPlan_Train1_1_HousePlant_42:planner_shadow:step46",
+      "since_old_free_ms": 10594.326
+    },
+    {
+      "block_id": 1624,
+      "allocator": "FloorPlan_Train1_1_GarbageCan_65:planner_shadow:step38",
+      "since_old_free_ms": 10631.677
+    },
+    {
+      "block_id": 1623,
+      "allocator": "FloorPlan_Train1_1_GarbageCan_65:planner_shadow:step38",
+      "since_old_free_ms": 10631.697
+    },
+    {
+      "block_id": 1622,
+      "allocator": "FloorPlan_Train1_1_GarbageCan_65:planner_shadow:step38",
+      "since_old_free_ms": 10631.708
+    },
+    {
+      "block_id": 1621,
+      "allocator": "FloorPlan_Train1_1_GarbageCan_65:planner_shadow:step38",
+      "since_old_free_ms": 10631.718
+    },
+    {
+      "block_id": 1620,
+      "allocator": "FloorPlan_Train1_1_GarbageCan_65:planner_shadow:step38",
+      "since_old_free_ms": 10631.725
+    }
+  ],
+  "old_to_new_lookup_ms": 16732.497,
+  "old_free_to_new_lookup_ms": 16045.034,
+  "server_requests_matched_to_client": 470,
+  "server_requests_ambiguous_match": 0,
+  "total_client_requests": 470,
+  "total_events": 5347
+}
